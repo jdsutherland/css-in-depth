@@ -23,6 +23,11 @@ main {
   display: block;
 }
 
+.wrapper {
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+}
+
 .container {
   display: table;
   width: 100%;
