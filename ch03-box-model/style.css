@@ -42,3 +42,17 @@ main {
   background-color: #fff;
   border-radius: .5em;
 }
+
+.button-link {
+  display: block;
+  padding: .5em;
+  color: #fff;
+  background-color: #0090c9;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-link + .button-link {
+  margin-top: 1.5em;
+}
