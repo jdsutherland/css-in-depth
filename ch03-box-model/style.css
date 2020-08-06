@@ -51,6 +51,7 @@ main {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  margin-top: 1.5em;
 }
 
 .button-link + .button-link {
