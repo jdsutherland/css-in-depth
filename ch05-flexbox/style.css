@@ -24,9 +24,10 @@ body * + * {
 
 .site-nav {
   display: flex;
-  padding-left: 0;
+  padding: .5em;
   list-style-type: none;
   background-color: #5f4b44;
+  border-radius: .2em;
 }
 
 .site-nav > li {
@@ -34,6 +35,8 @@ body * + * {
 }
 
 .site-nav > li > a {
+  display: block;
+  padding: .5em 1em;
   background-color: #cc6b5a;
   color: white;
   text-decoration: none;
