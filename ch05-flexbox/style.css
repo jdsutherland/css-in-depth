@@ -34,6 +34,14 @@ body * + * {
   margin-top: 0;
 }
 
+.site-nav > li + li {
+  margin-left: 1.5em;
+}
+
+.site-nav > .nav-right {
+  margin-left: auto;
+}
+
 .site-nav > li > a {
   display: block;
   padding: .5em 1em;
