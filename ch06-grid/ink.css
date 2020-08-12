@@ -28,6 +28,38 @@ nav {
   grid-row: span 1;
 }
 
+.page-heading {
+  margin: 0;
+}
+
+.site-nav {
+  display: flex;
+  margin: 0;
+  padding: .5em;
+  background-color: #5f4b44;
+  list-style-type: none;
+  border-radius: .2em;
+}
+
+.site-nav > li {
+  margin-top: 0;
+}
+
+.site-nav > li > a {
+  display: block;
+  padding: .5em 1em;
+  color: white;
+  text-decoration: none;
+}
+
+.site-nav > li + li {
+  margin-left: 1.5em;
+}
+
+.site-nav > .nav-right {
+  margin-left: auto;
+}
+
 .main {
   grid-column: 1 / 2;
   grid-row: 3 / 5;
