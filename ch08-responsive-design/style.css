@@ -40,6 +40,12 @@ a:active {
   background-color: #fff;
 }
 
+@media (min-width: 35em) {
+  .page-header {
+    padding: 1em;
+  }
+}
+
 .title > h1 {
   color: #333;
   text-transform: uppercase;
@@ -69,6 +75,13 @@ a:active {
   background-size: 100%;
   color: #fff;
   text-shadow: 0.1em 0.1em 0.3em #000;
+}
+
+@media (min-width: 35em) {
+  .hero {
+    padding: 5em 3em;
+    font-size: 1.2rem;
+  }
 }
 
 /*
