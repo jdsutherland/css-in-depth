@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="message.css">
     <link rel="stylesheet" href="button.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="dropdown.css">
   </head>
 
   <body>
@@ -22,9 +23,13 @@
       Invalid password
     </div>
 
+    <hr>
+
     <button class="button button--large">Read more</button>
     <button class="button button--success">Save</button>
     <button class="button button--danger button--small">Cancel</button>
+
+    <hr>
 
     <div class="media">
       <img class="media__image" src="runner.png">
@@ -33,5 +38,22 @@
         <p>Strength training is an important part of injury prevention. Focus on your core&mdash; especially your abs and glutes.</p>
       </div>
     </div>
+
+    <hr>
+
+    <div class="dropdown">
+      <button class="dropdown__toggle">Main menu</button>
+      <div class="dropdown__drawer">
+        <ul class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/coffees">Coffees</a></li>
+          <li><a href="/brewers">Brewers</a></li>
+          <li><a href="/specials">Specials</a></li>
+          <li><a href="/about">About us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
